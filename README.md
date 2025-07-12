@@ -16,7 +16,7 @@ This project demonstrates performance and stress testing on the [Restful Booker 
 
   * Step 1: 5 minutes
   * Step 2: 10 minutes
-  * Step 3: 20 minutes
+  * Step 3: 15 minutes
 * Performed Stress Testing by gradually increasing users until bottlenecks were observed
 * Collected test results in `.jtl` format and generated:
 
@@ -53,14 +53,14 @@ jmeter -g booking.jtl -o Reports/
 ## 📷 Screenshots
 
 ## 📈 Load Test Report
-### Step1_5_Min
-![image](<img width="1367" height="1052" alt="4" src="https://github.com/user-attachments/assets/d8caced5-f401-469c-ad4c-b075b3d10179" />)
-### Step2_10_Min
-![image](<img width="1367" height="1166" alt="2" src="https://github.com/user-attachments/assets/0fc37280-0bd3-4b5d-b8fa-c3540214816e" />)
-### Step3_20_Min
-![image](<img width="1367" height="1166" alt="3" src="https://github.com/user-attachments/assets/d518a4cb-d2bd-45c0-bf18-84df0562eef0" />)
+### Step1: 5_Min
+<img width="1367" height="1052" alt="4" src="https://github.com/user-attachments/assets/d8caced5-f401-469c-ad4c-b075b3d10179" />
 
+### Step2: 10_Min
+<img width="1367" height="1166" alt="2" src="https://github.com/user-attachments/assets/0fc37280-0bd3-4b5d-b8fa-c3540214816e" />
 
+### Step3: 15_Min
+<img width="1367" height="1166" alt="3" src="https://github.com/user-attachments/assets/d518a4cb-d2bd-45c0-bf18-84df0562eef0" />
 
 
 
