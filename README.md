@@ -66,15 +66,22 @@ jmeter -g booking.jtl -o Reports/
 
 ## 📉 Stress Test Report (Excel)
 ### Iteration 2
-![image]()
-### Iteration 2.1
-![image]()
-### Iteration 2.1.1
-![image]()
-### Iteration 2.1.2
-![image]()
-### Iteration 2.1.3 (Breakdown Point)
-![image]()
+<img width="1367" height="1052" alt="bKvdM" src="https://github.com/user-attachments/assets/bfa19a4c-5cba-44ff-8137-d8e1b6938b67" />
+
+### Iteration 3
+<img width="1367" height="1127" alt="bKvdM" src="https://github.com/user-attachments/assets/2ecdb3aa-1d92-45ad-bace-31b3abfc5dc3" />
+
+### Iteration 3.1
+<img width="1367" height="1127" alt="bKv6r" src="https://github.com/user-attachments/assets/544b1cb6-ee3a-4e02-92a0-55986bd3001b" />
+
+### Iteration 3.2
+<img width="1367" height="1180" alt="image" src="https://github.com/user-attachments/assets/712112fc-c4a1-409c-b7b7-807b2701abe0" />
+
+### Iteration 3.2.1
+<img width="1367" height="1180" alt="image" src="https://github.com/user-attachments/assets/16e7df2c-2825-430b-851f-145dcd128532" />
+
+### Iteration 3.2.2
+
 
 ---
 
