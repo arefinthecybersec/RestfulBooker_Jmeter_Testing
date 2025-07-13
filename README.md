@@ -50,6 +50,8 @@ cd RestfulBooker_Jmeter_Testing
 jmeter -g booking.jtl -o Reports/
 
 ```
+---
+
 ## 📷 Screenshots
 
 ## 📈 Load Test (Excel Report):
@@ -70,7 +72,7 @@ jmeter -g booking.jtl -o Reports/
 ---
 
 ## 📉 Stress Test (Excel Report):
-<img width="1367" height="642" alt="load_test" src="https://github.com/user-attachments/assets/1679de2b-f7ba-4651-a122-9c839a4a80e5" />
+<img width="1367" height="642" alt="stress test" src="https://github.com/user-attachments/assets/1e714714-8766-4a37-ba61-accbea966d20" />
 
 
 
