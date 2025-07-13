@@ -52,7 +52,12 @@ jmeter -g booking.jtl -o Reports/
 ```
 ## 📷 Screenshots
 
-## 📈 Load Test Report
+## 📈 Load Test (Excel Report):
+<img width="1367" height="642" alt="load_test" src="https://github.com/user-attachments/assets/1679de2b-f7ba-4651-a122-9c839a4a80e5" />
+
+
+
+## 📈 Load Test (HTML Report):
 ### Step1: 5_Min
 <img width="1367" height="1052" alt="4" src="https://github.com/user-attachments/assets/d8caced5-f401-469c-ad4c-b075b3d10179" />
 
@@ -62,9 +67,14 @@ jmeter -g booking.jtl -o Reports/
 ### Step3: 15_Min
 <img width="1367" height="1166" alt="3" src="https://github.com/user-attachments/assets/d518a4cb-d2bd-45c0-bf18-84df0562eef0" />
 
+---
+
+## 📉 Stress Test (Excel Report):
+<img width="1367" height="642" alt="load_test" src="https://github.com/user-attachments/assets/1679de2b-f7ba-4651-a122-9c839a4a80e5" />
 
 
-## 📉 Stress Test Report (Excel)
+
+## 📉 Stress Test (HTML Report):
 ### Iteration 2
 <img width="1367" height="1052" alt="bKvdM" src="https://github.com/user-attachments/assets/bfa19a4c-5cba-44ff-8137-d8e1b6938b67" />
 
