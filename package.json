@@ -1,0 +1,12 @@
+{
+  "name": "restfulbooker-jmeter-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "test": "jmeter -n -t booking.jmx -l booking.jtl -e -o Reports/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

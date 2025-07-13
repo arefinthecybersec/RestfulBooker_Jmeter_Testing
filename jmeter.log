@@ -1,0 +1,60 @@
+2025-07-13 23:05:19,126 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-07-13 23:05:19,146 INFO o.a.j.JMeter: Loading user properties from: G:\JMeter\apache-jmeter-5.6.3\bin\user.properties
+2025-07-13 23:05:19,146 INFO o.a.j.JMeter: Loading system properties from: G:\JMeter\apache-jmeter-5.6.3\bin\system.properties
+2025-07-13 23:05:19,154 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-07-13 23:05:19,154 INFO o.a.j.JMeter: Version 5.6.3
+2025-07-13 23:05:19,154 INFO o.a.j.JMeter: java.version=17.0.12
+2025-07-13 23:05:19,154 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2025-07-13 23:05:19,154 INFO o.a.j.JMeter: os.name=Windows 10
+2025-07-13 23:05:19,154 INFO o.a.j.JMeter: os.arch=amd64
+2025-07-13 23:05:19,154 INFO o.a.j.JMeter: os.version=10.0
+2025-07-13 23:05:19,154 INFO o.a.j.JMeter: file.encoding=Cp1252
+2025-07-13 23:05:19,154 INFO o.a.j.JMeter: java.awt.headless=true
+2025-07-13 23:05:19,154 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-07-13 23:05:19,154 INFO o.a.j.JMeter: Available Processors =8
+2025-07-13 23:05:19,164 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-07-13 23:05:19,165 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-07-13 23:05:19,165 INFO o.a.j.JMeter: JMeterHome=G:\JMeter\apache-jmeter-5.6.3
+2025-07-13 23:05:19,165 INFO o.a.j.JMeter: user.dir  =F:\RestfulBooker JMeter Testing
+2025-07-13 23:05:19,165 INFO o.a.j.JMeter: PWD       =F:\RestfulBooker JMeter Testing
+2025-07-13 23:05:34,749 INFO o.a.j.JMeter: IP: 172.27.144.1 Name: Desktop-Ci310thG FullName: Desktop-Ci310thG
+2025-07-13 23:05:34,782 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'F:\RestfulBooker JMeter Testing\Reports'
+2025-07-13 23:05:34,785 INFO o.a.j.s.FileServer: Default base='F:\RestfulBooker JMeter Testing'
+2025-07-13 23:05:34,786 INFO o.a.j.s.FileServer: Set new base='F:\RestfulBooker JMeter Testing'
+2025-07-13 23:05:34,977 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-07-13 23:05:35,002 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-07-13 23:05:35,007 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-07-13 23:05:35,011 INFO o.a.j.s.SaveService: Loading file: booking.jmx
+2025-07-13 23:05:35,077 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-07-13 23:05:35,077 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-07-13 23:05:35,077 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-07-13 23:05:35,077 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-07-13 23:05:35,077 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2025-07-13 23:05:35,078 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2025-07-13 23:05:35,124 INFO o.a.j.JMeter: Creating summariser <summary>
+2025-07-13 23:05:35,128 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2025-07-13 23:05:35,129 ERROR o.a.j.JMeter: Error in NonGUIDriver
+java.lang.IllegalArgumentException: Results file:booking.jtl is not empty
+	at org.apache.jmeter.report.dashboard.ReportGenerator.<init>(ReportGenerator.java:140) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.JMeter.runNonGui(JMeter.java:1007) [ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.JMeter.startNonGui(JMeter.java:940) [ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.JMeter.start(JMeter.java:508) [ApacheJMeter_core.jar:5.6.3]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:259) [ApacheJMeter.jar:5.6.3]
+2025-07-13 23:05:35,140 ERROR o.a.j.JMeter: An error occurred: 
+org.apache.jmeter.report.config.ConfigurationException: Error in NonGUIDriver Results file:booking.jtl is not empty
+	at org.apache.jmeter.JMeter.runNonGui(JMeter.java:1049) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.JMeter.startNonGui(JMeter.java:940) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.JMeter.start(JMeter.java:508) [ApacheJMeter_core.jar:5.6.3]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:259) [ApacheJMeter.jar:5.6.3]
+Caused by: java.lang.IllegalArgumentException: Results file:booking.jtl is not empty
+	at org.apache.jmeter.report.dashboard.ReportGenerator.<init>(ReportGenerator.java:140) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.JMeter.runNonGui(JMeter.java:1007) ~[ApacheJMeter_core.jar:5.6.3]
+	... 7 more
