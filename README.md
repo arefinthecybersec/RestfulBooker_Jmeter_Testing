@@ -93,7 +93,7 @@ jmeter -g booking.jtl -o Reports/
 <img width="1367" height="1180" alt="image" src="https://github.com/user-attachments/assets/16e7df2c-2825-430b-851f-145dcd128532" />
 
 ### Iteration 3.2.2
-
+<img width="1155" height="125" alt="image" src="https://github.com/user-attachments/assets/a2cbf1ce-d314-45e7-904f-deb5a3c58ebe" />
 
 ---
 
